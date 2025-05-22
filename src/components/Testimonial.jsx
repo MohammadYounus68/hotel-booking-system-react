@@ -10,7 +10,7 @@ const Testimonial = () => {
             subTitle='Discover why discerning travelers consistently choose QuickStay for their exclusive and luxurious accommodations around the world.'
             />
         
-            <div className="flex flex-wrap items-center gap-6 mt-20 ">
+            <div className="flex flex-wrap justify-center items-center gap-6 mt-20 md: ">
                 {testimonials.map((testimonial) => (
                     <div key={testimonial.id} className="bg-white p-6 rounded-xl shadow max-w-xs">
                         <div className="flex items-center gap-3">
